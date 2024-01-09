@@ -51,8 +51,6 @@ The assignment originator of this project is Mats Otten and Ferry Rietveld. They
 2. Connect the odroid to the device.
 3. Download and install the libraries above.
 
-#### Python code
-
 <a name="Gist"></a>
 ## Game instructions
 
@@ -74,7 +72,7 @@ You can also test the flip and neutral stance of both the flippers, if you type 
 ## Usage
 This project is used to imply a game of pinball. There's code used for:
 
-#### java functions odroid
+#### Functions odroid
 Odroid Pin Configuration
 + BUTTON_PINL: Pin connected to the left flipper button
 + BUTTON_PINR: Pin connected to the right flipper button
@@ -103,7 +101,7 @@ Odroid Pin Configuration
 
 
 #### Code explanation for Odroid:
-The Odroid Java functions handle the interaction between the pinball machine's hardware components and the game logic. These functions control various pins connected to buttons, flippers, lasers, LDR sensors, and more. The pin configurations define how the hardware components communicate with the game, enabling features such as flipping, scoring points, and monitoring the ball's movement.
+The Odroid functions handle the interaction between the pinball machine's hardware components and the game logic. These functions control various pins connected to buttons, flippers, lasers, LDR sensors, and more. The pin configurations define how the hardware components communicate with the game, enabling features such as flipping, scoring points, and monitoring the ball's movement.
 
 Each pin is assigned a specific function, allowing precise control over the pinball machine's behavior during gameplay. The code defines how these pins are utilized to create an interactive and engaging pinball experience for the players.
 
